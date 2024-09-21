@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Lerna Bootstrap
+packages/*/node_modules
+packages/*/dist
+
+# npm cache
+.npm
+
+# Environment variables
+.env
+.env.*.local
+
+# Jest
+/coverage
+*.lcov
+
+# Optional npm cache directory
+.npm/
+
+# ESLint
+.eslintcache
+
+# Prettier
+*.bak
+*.tmp
+
+# Output from build processes
+build/
+dist/
+.out/
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git hooks
+.husky/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
